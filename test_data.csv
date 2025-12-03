@@ -1,0 +1,4 @@
+Test Case ID,Email,Password,Expected Message
+Invalid_01,wrong@email.com,12345,Authentication failed
+Invalid_02,valid@user.com,wrongpass,Invalid password
+Invalid_03,missing@data.com,password123,Email not found
